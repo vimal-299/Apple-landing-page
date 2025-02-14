@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: black;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+li{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: darkgray;
+    font-family: "San Francisco", "system-ui", sans-serif;
+    font-size: 13px;
+}
+.ribbon{
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+}
+img{
+    width: 100%;
+}
+.image{
+    position: relative;
+}
+.image button{
+    position:absolute;
+    top: 83vh;
+    left: 46%;
+    border-radius: 30px;
+    background-color: rgb(0, 64, 202);
+    color: white;
+    padding: 15px;
+}
+.avail{
+    position:absolute;
+    top: 95vh;
+    color: white;
+    text-align: center;
+    padding-left: 41%;
+}
+.price{
+    font-size: 20px;
+    font-weight: 400;
+}
+.av{
+    font-size: 15px;
+    color: darkgray;
+}
